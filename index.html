@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/style.css">   
+  </head>
+
+  <body>
+      <header>
+        <h1>Basic To-Do List</h1>
+       </header> 
+
+      <section id="todo-nav">
+        <form>     
+            <input placeholder="Input your new task here..." id="todo-input" name="todo-input" maxlength="40" required />
+            <!-- <button class="todo-button">Add new task</button> -->
+            <input type="button" class="todo-button" value="Add new Task"/>
+        </form>
+      </section>
+
+
+      
+      <div class="todo-container">
+        <ul id="todo-list"></ul>        
+      </div><!-- End #todo-list -->  
+
+      <!-- JAVASCRIPT-->
+      <script src="https://use.fontawesome.com/c3508d963c.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>

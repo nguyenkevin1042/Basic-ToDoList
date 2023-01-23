@@ -1,0 +1,89 @@
+header{
+	text-align: center;
+}
+
+#todo-nav{
+	min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todo-nav #todo-input{
+		min-height: 30px;
+		border-radius: 10px;
+		font-size: 14px;
+		border: 1px solid black;
+}
+#todo-nav .todo-button{
+		height: 35px;
+		border-radius: 10px;
+		margin-left: 20px;
+}
+
+
+
+
+#create-new-folder{
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+}
+#create-new-folder i {
+	border: 1px solid red;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.todo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+	list-style: none;
+}
+#todo-list li{
+	width: 400px;
+	margin-top: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+#todo-list li .todo-text{
+	font-size: 17px;
+	padding: 0px 10px;
+	text-align: center;
+}
+#todo-list li button{
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+	border: none;
+	/*padding: none;
+	margin: none;*/
+	background-color: lightgray;
+	text-align: center;
+	position: relative;
+}
+#todo-list li button i{
+	font-size: 20px;
+}
+#todo-list li .completeBtn{
+	left: 80%;
+}
+#todo-list li .completeBtn:hover{
+	color: green;
+}
+#todo-list li .trashBtn{
+	left: 85%;
+}
+#todo-list li .trashBtn:hover{
+	color: red;
+}
+
+
+#todo-list .completed{
+	  text-decoration: line-through;
+    opacity: 0.5;
+}
+
